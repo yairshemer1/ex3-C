@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Yair Shemer/Desktop/University/2b/C/ex3/NumericalAnalyzer.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+infi.h
+/cygdrive/c/Users/Yair Shemer/Desktop/University/2b/C/ex3/infi.h
+
+/cygdrive/c/Users/Yair Shemer/Desktop/University/2b/C/ex3/infi.h
+math.h
+-
+

@@ -1,0 +1,26 @@
+c_ex3_late
+yair.shemer
+204371983
+######
+
+Description:
+
+NumericalAnalyzer:
+In this exercise we had to calculate the integral and derivative values of given functions.
+Using assert and error handling we had to prevent the program from doing errors.
+The input from the user was made through analyzing the line, parsing each to to it's double
+or int value and sending it to the infi library to get back the values for the output.
+I dealt with the errors using a global error variable, which would change it's value in case
+one of the conditions would cause an error. Also, a check if one of the points would cause
+a NaN was made in order to mark invalid input.
+
+infi:
+In this library, two methods are implemented - integration and derivative.
+integration - this function uses another function to get the centers for each rectangle using
+Riemann's sum. It them runs on all of them, calculates the value of the function, multiply
+in the delta and returns the sum, by definition it's the integration value of the function between
+the segment [a,b].
+derivative - this function simply calculates the value of the function in x0+h and x0-h and
+uses the definition of the derivation to get the value of the slope in x0 with epsilon h.
+If one of the values are NaN, it will cause an assertion error.
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/ex3new.dir/infi.c.o CMakeFiles/ex3new.dir/NumericalAnalyzer.c.o  -o ex3new.exe -Wl,--out-implib,libex3new.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
